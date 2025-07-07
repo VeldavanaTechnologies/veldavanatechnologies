@@ -6,7 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ChevronDown, Code, Zap, Globe } from 'lucide-react';
 import dynamic from 'next/dynamic';
 
-const StarfieldBackground = dynamic(() => import('../assets/starfield-bg'), { ssr: false });
+const StarfieldBackground = dynamic(() => import('./starfield-bg'), { ssr: false });
 
 gsap.registerPlugin(ScrollTrigger);
 
